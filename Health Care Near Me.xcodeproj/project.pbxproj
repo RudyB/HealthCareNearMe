@@ -7,21 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4746A50D1EB7E81800646387 /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4746A50C1EB7E81800646387 /* CustomAlert.swift */; };
+		4787EB4D1EB70C00003C17B1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4787EB4C1EB70C00003C17B1 /* MapKit.framework */; };
+		478CC8321EB7C476000965D2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478CC8311EB7C476000965D2 /* DetailViewController.swift */; };
 		47D818101EB6CD5D00948CF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D8180F1EB6CD5D00948CF0 /* AppDelegate.swift */; };
-		47D818121EB6CD5D00948CF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D818111EB6CD5D00948CF0 /* ViewController.swift */; };
 		47D818151EB6CD5D00948CF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D818131EB6CD5D00948CF0 /* Main.storyboard */; };
 		47D818171EB6CD5D00948CF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D818161EB6CD5D00948CF0 /* Assets.xcassets */; };
 		47D8181A1EB6CD5D00948CF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D818181EB6CD5D00948CF0 /* LaunchScreen.storyboard */; };
+		47D938041EB714D300A8FDE5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D938031EB714D300A8FDE5 /* LocationManager.swift */; };
+		47D938071EB714E900A8FDE5 /* LocationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D938061EB714E900A8FDE5 /* LocationType.swift */; };
+		47D9380B1EB7150100A8FDE5 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D938091EB7150100A8FDE5 /* HomePageViewController.swift */; };
+		47D9380C1EB7150100A8FDE5 /* LocationResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9380A1EB7150100A8FDE5 /* LocationResultsViewController.swift */; };
+		47D938101EB7152300A8FDE5 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9380F1EB7152300A8FDE5 /* GradientView.swift */; };
+		47D938121EB715DA00A8FDE5 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D938111EB715DA00A8FDE5 /* Error.swift */; };
+		47D938141EB7180C00A8FDE5 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D938131EB7180C00A8FDE5 /* Coordinate.swift */; };
+		47D938161EB719A300A8FDE5 /* FoursquareModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D938151EB719A300A8FDE5 /* FoursquareModels.swift */; };
+		47D938191EB71A0700A8FDE5 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D938171EB71A0700A8FDE5 /* APIClient.swift */; };
+		47D9381A1EB71A0700A8FDE5 /* FoursquareClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D938181EB71A0700A8FDE5 /* FoursquareClient.swift */; };
+		47D9381C1EB71E7C00A8FDE5 /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9381B1EB71E7C00A8FDE5 /* LocationTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4746A50C1EB7E81800646387 /* CustomAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomAlert.swift; path = Resources/Helpers/CustomAlert.swift; sourceTree = "<group>"; };
+		4787EB4C1EB70C00003C17B1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		478CC8311EB7C476000965D2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ViewControllers/DetailViewController.swift; sourceTree = "<group>"; };
 		47D8180C1EB6CD5D00948CF0 /* Health Care Near Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health Care Near Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D8180F1EB6CD5D00948CF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		47D818111EB6CD5D00948CF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		47D818141EB6CD5D00948CF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47D818161EB6CD5D00948CF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47D818191EB6CD5D00948CF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47D8181B1EB6CD5D00948CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D938031EB714D300A8FDE5 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = API/LocationManager.swift; sourceTree = "<group>"; };
+		47D938061EB714E900A8FDE5 /* LocationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationType.swift; path = Models/LocationType.swift; sourceTree = "<group>"; };
+		47D938091EB7150100A8FDE5 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomePageViewController.swift; path = ViewControllers/HomePageViewController.swift; sourceTree = "<group>"; };
+		47D9380A1EB7150100A8FDE5 /* LocationResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationResultsViewController.swift; path = ViewControllers/LocationResultsViewController.swift; sourceTree = "<group>"; };
+		47D9380F1EB7152300A8FDE5 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = Resources/Helpers/GradientView.swift; sourceTree = "<group>"; };
+		47D938111EB715DA00A8FDE5 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Resources/Helpers/Error.swift; sourceTree = "<group>"; };
+		47D938131EB7180C00A8FDE5 /* Coordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Coordinate.swift; path = Models/Coordinate.swift; sourceTree = "<group>"; };
+		47D938151EB719A300A8FDE5 /* FoursquareModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoursquareModels.swift; path = Models/FoursquareModels.swift; sourceTree = "<group>"; };
+		47D938171EB71A0700A8FDE5 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIClient.swift; path = API/APIClient.swift; sourceTree = "<group>"; };
+		47D938181EB71A0700A8FDE5 /* FoursquareClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoursquareClient.swift; path = API/FoursquareClient.swift; sourceTree = "<group>"; };
+		47D9381B1EB71E7C00A8FDE5 /* LocationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationTableViewCell.swift; path = Models/LocationTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4787EB4D1EB70C00003C17B1 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +67,7 @@
 			children = (
 				47D8180E1EB6CD5D00948CF0 /* Health Care Near Me */,
 				47D8180D1EB6CD5D00948CF0 /* Products */,
+				71D4C85C2AFC03ACAA59323B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +82,74 @@
 		47D8180E1EB6CD5D00948CF0 /* Health Care Near Me */ = {
 			isa = PBXGroup;
 			children = (
+				47D938081EB714F300A8FDE5 /* ViewControllers */,
+				47D938051EB714DD00A8FDE5 /* Models */,
+				47D938021EB714C700A8FDE5 /* API */,
+				47D9380D1EB7150A00A8FDE5 /* Resources */,
 				47D8180F1EB6CD5D00948CF0 /* AppDelegate.swift */,
-				47D818111EB6CD5D00948CF0 /* ViewController.swift */,
 				47D818131EB6CD5D00948CF0 /* Main.storyboard */,
 				47D818161EB6CD5D00948CF0 /* Assets.xcassets */,
 				47D818181EB6CD5D00948CF0 /* LaunchScreen.storyboard */,
 				47D8181B1EB6CD5D00948CF0 /* Info.plist */,
 			);
 			path = "Health Care Near Me";
+			sourceTree = "<group>";
+		};
+		47D938021EB714C700A8FDE5 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				47D938171EB71A0700A8FDE5 /* APIClient.swift */,
+				47D938181EB71A0700A8FDE5 /* FoursquareClient.swift */,
+				47D938031EB714D300A8FDE5 /* LocationManager.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		47D938051EB714DD00A8FDE5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				47D938151EB719A300A8FDE5 /* FoursquareModels.swift */,
+				47D938061EB714E900A8FDE5 /* LocationType.swift */,
+				47D938131EB7180C00A8FDE5 /* Coordinate.swift */,
+				47D9381B1EB71E7C00A8FDE5 /* LocationTableViewCell.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		47D938081EB714F300A8FDE5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				47D938091EB7150100A8FDE5 /* HomePageViewController.swift */,
+				47D9380A1EB7150100A8FDE5 /* LocationResultsViewController.swift */,
+				478CC8311EB7C476000965D2 /* DetailViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		47D9380D1EB7150A00A8FDE5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				47D9380E1EB7151700A8FDE5 /* Helpers */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		47D9380E1EB7151700A8FDE5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4746A50C1EB7E81800646387 /* CustomAlert.swift */,
+				47D938111EB715DA00A8FDE5 /* Error.swift */,
+				47D9380F1EB7152300A8FDE5 /* GradientView.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		71D4C85C2AFC03ACAA59323B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4787EB4C1EB70C00003C17B1 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +186,11 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = NZ8449Y9W6;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -137,8 +230,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47D818121EB6CD5D00948CF0 /* ViewController.swift in Sources */,
+				478CC8321EB7C476000965D2 /* DetailViewController.swift in Sources */,
+				47D938161EB719A300A8FDE5 /* FoursquareModels.swift in Sources */,
+				47D9380B1EB7150100A8FDE5 /* HomePageViewController.swift in Sources */,
+				47D9381A1EB71A0700A8FDE5 /* FoursquareClient.swift in Sources */,
+				47D938041EB714D300A8FDE5 /* LocationManager.swift in Sources */,
+				47D938191EB71A0700A8FDE5 /* APIClient.swift in Sources */,
+				47D938101EB7152300A8FDE5 /* GradientView.swift in Sources */,
+				47D9381C1EB71E7C00A8FDE5 /* LocationTableViewCell.swift in Sources */,
+				47D938141EB7180C00A8FDE5 /* Coordinate.swift in Sources */,
+				47D938071EB714E900A8FDE5 /* LocationType.swift in Sources */,
+				47D9380C1EB7150100A8FDE5 /* LocationResultsViewController.swift in Sources */,
+				47D938121EB715DA00A8FDE5 /* Error.swift in Sources */,
 				47D818101EB6CD5D00948CF0 /* AppDelegate.swift in Sources */,
+				4746A50D1EB7E81800646387 /* CustomAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +374,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "co.rudybermudez.Health-Care-Near-Me";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -282,6 +388,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "co.rudybermudez.Health-Care-Near-Me";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -304,6 +411,7 @@
 				47D818201EB6CD5D00948CF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
