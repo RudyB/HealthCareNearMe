@@ -1,7 +1,6 @@
-# How to run
+# Health Care Near Me
 
-1. You will need to download Xcode on a macOS VM or Apple Device
-2. Double Click on `Health Care Near Me.xcodeproj`
-3. Under the `Product` tab of the menu bar, select `Destination`
-4. Select an iOS Simulator where you would like to run the application
-5. Press `Cmd + R` on the keyboard to run the app
+This application utlizes location data and the Foursquare API to make finding medical facilities easier than ever.
+
+
+<img src="https://i.imgur.com/KBvMaa7.png" width=250> <img src="https://imgur.com/LUjW45N.png" width=250> <img src="https://imgur.com/a4kKZ9R.png" width=250>
